@@ -1,0 +1,79 @@
+body {
+    color: #000;
+    background: #EEE;
+}
+
+/* LAYOUT */
+.post .date, .quote .date, .bookmark .date {
+	float: left;
+	padding: .3em .4em .3em 1.2em;
+	background: #e22;
+	margin: 0.3em 0  0 -6.0em;
+	width: 3.8em;
+    color: #000;
+}
+
+.post .teaser{
+    border-bottom: solid 1.0em #633709;
+}
+
+div#body {
+    font-family: GillSans, Garamond, ‘Hoefler Text’, ‘Times New Roman’, Times, serif;
+}
+
+div#body p {
+    margin-bottom: 1.5em;
+}
+
+/* TYPE */
+
+h4 {
+    margin-top: .1em;
+    color: #000;
+}
+
+#right-rail p, #right-rail ul{
+    color: #000;
+}
+
+/* LINKS */
+
+a:link, a:visited {
+    color: #e22;
+}
+
+a:hover {
+    color: #e22;
+}
+
+h2 {
+    padding-bottom: .5em;
+}
+
+h2 a:link, h2 a:visited { 
+    color: #000;
+}
+
+h2 a:hover {
+    color: #000;
+}
+
+pre { 
+    background-color: #222;
+    border: 4px solid #888;
+    font-style: monospace;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+ul.recent-posts li
+{
+    color: #633709;
+}
+
+.post li{ color: #fff;}
+
+ul.navbar-one {
+    margin-left: 0;
+    padding-left: 1px;
+}
