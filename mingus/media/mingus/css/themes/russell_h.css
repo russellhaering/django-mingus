@@ -1,24 +1,24 @@
 body {
     color: #000;
-    background: #EEE;
+    background: #FFF;
 }
 
 /* LAYOUT */
 .post .date, .quote .date, .bookmark .date {
-	float: left;
-	padding: .3em .4em .3em 1.2em;
-	background: #e22;
-	margin: 0.3em 0  0 -6.0em;
-	width: 3.8em;
-    color: #000;
+    float: left;
+    padding: .3em .4em .3em 1.2em;
+    background: #00733E;
+    margin: 0.3em 0  0 -6.0em;
+    width: 3.8em;
+    color: #FFF;
 }
 
 .post .teaser{
-    border-bottom: solid 1.0em #633709;
+    border-bottom: solid .2em #00B060;
 }
 
 div#body {
-    font-family: GillSans, Garamond, ‘Hoefler Text’, ‘Times New Roman’, Times, serif;
+    font-family: GillSans, Garamond, ?Hoefler Text?, ?Times New Roman?, Times, serif;
 }
 
 div#body p {
@@ -39,11 +39,11 @@ h4 {
 /* LINKS */
 
 a:link, a:visited {
-    color: #e22;
+    color: #00B060;
 }
 
 a:hover {
-    color: #e22;
+    color: #00B060;
 }
 
 h2 {

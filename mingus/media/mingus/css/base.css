@@ -114,9 +114,7 @@ body {
 
 #right-rail ul li, .post li
 {
-    list-style: disc;
-    margin-left: 1.5em;
-    list-style-position: outside;
+    list-style: none;
     color: #333940;
 }
 
