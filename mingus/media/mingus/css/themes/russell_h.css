@@ -14,7 +14,7 @@ body {
 }
 
 .post .teaser{
-    border-bottom: solid .2em #00B060;
+    border-bottom: solid .2em #00733E;
 }
 
 div#body {
@@ -36,14 +36,20 @@ h4 {
     color: #000;
 }
 
+#right-rail h4 {
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: .1em;
+}
+
 /* LINKS */
 
 a:link, a:visited {
-    color: #00B060;
+    color: #00733E;
 }
 
 a:hover {
-    color: #00B060;
+    color: #00733E;
 }
 
 h2 {
