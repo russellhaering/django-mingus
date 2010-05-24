@@ -112,10 +112,19 @@ body {
     text-align: center;
 }
 
-#right-rail ul li, .post li
-{
+.post li {
+    list-style: disc;
+    color: #333940;
+}
+
+#right-rail ul li {
     list-style: none;
     color: #333940;
+    border-top: 1px dotted #ccc;
+}
+
+#right-rail ul li:first-child {
+    border-top: none;
 }
 
 .bookmark p{ margin-top: .8em;}
